@@ -8,10 +8,10 @@ int main()
     int ans = 0 ;
     
     while(n){
-        n = n/5;  
+        n = n/10;  
         ans += n; 
     }
-   
+    
     cout<<ans<<"\n";
     return 0;
 }
